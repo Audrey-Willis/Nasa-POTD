@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://picsum.photos/id/721/2000/2000);
+  color:white;
 }
 
 code {
