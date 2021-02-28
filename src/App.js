@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Route exact path="/" component={Home} />
+      <Route exact path="/nasa-potd" component={Home} />
       <Route path="/Photo-Of-The-Day" component={PotdData} />
     </BrowserRouter>
   );
