@@ -8,7 +8,7 @@ function Nav() {
       <Link to="/Photo-Of-The-Day" className="navLinks">
         Photo of the Day
       </Link>
-      <Link to="/" className="navLinks">
+      <Link to="/nasa-potd" className="navLinks">
         Home
       </Link>
     </NavStyle>
