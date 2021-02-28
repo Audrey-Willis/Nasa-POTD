@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {HomeStyle} from "./HomeStyle"
 
 
 function Home() {
   return (
-    <div>
+    <HomeStyle>
       <p>Do you love space and all things astronomy related?</p>
       <Link to="/Photo-Of-The-Day">
         <img src="https://picsum.photos/id/683/700/300" alt="Space" />
@@ -33,7 +34,7 @@ function Home() {
       <Link to="/Photo-Of-The-Day" className="button">
         Photo Of The Day
       </Link>
-    </div>
+    </HomeStyle>
   );
 }
 export default Home;
