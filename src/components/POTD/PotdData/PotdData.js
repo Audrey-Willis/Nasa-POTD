@@ -12,9 +12,7 @@ function PotdData() {
     let isActive = true;
     axios
       .get(
-        `https://api.nasa.gov/planetary/apod?
-api_key=rgQsir8BIxc8vorMi1R81BNSadWvFRNvetq1MmsO&date=${date}`
-      )
+        `https://api.nasa.gov/planetary/apod?api_key=rgQsir8BIxc8vorMi1R81BNSadWvFRNvetq1MmsO&date=${date}`)
       .then((response) => {
         if (isActive) {
           setImage(response.data);

@@ -9,8 +9,8 @@ export const PotdDataStyle = styled.div`
     margin-bottom: 3%;
   }
   @media (max-width: 800px) {
-    .datePicker {
-      font-size: 1rem;
-    }
+  .datePicker {
+    font-size: 1rem;
+  }
   }
 `;

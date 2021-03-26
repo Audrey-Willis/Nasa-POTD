@@ -5,12 +5,8 @@ import {NavStyle} from "./NavStyle";
 function Nav() {
   return (
     <NavStyle>
-      <Link to="/Photo-Of-The-Day" className="navLinks">
-        Photo of the Day
-      </Link>
-      <Link to="/nasa-potd" className="navLinks">
-        Home
-      </Link>
+      <Link to="/Photo-Of-The-Day" className="navLinks">Photo of the Day</Link>
+      <Link to="/nasa-potd" className="navLinks">Home</Link>
     </NavStyle>
   );
 }

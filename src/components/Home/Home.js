@@ -8,7 +8,7 @@ function Home() {
     <HomeStyle>
       <p>Do you love space and all things astronomy related?</p>
       <Link to="/Photo-Of-The-Day">
-        <img src="https://picsum.photos/id/683/700/300" alt="Space" />
+      <img src="https://picsum.photos/id/683/700/300" alt="Space" />
       </Link>
       <p>
         If you answered yes, I don't blame you! Space is the last great
